@@ -2,7 +2,7 @@ package no.hvl.dat100;
 
 import static javax.swing.JOptionPane.*;
 
-public class O2 {
+public class Oppgave3 {
     public static void main(String[] args) {  
         int n = Integer.parseInt(showInputDialog("Skriv inn ett tall: "));
         int x = 1;
