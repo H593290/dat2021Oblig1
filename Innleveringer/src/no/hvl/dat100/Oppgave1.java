@@ -2,7 +2,7 @@ package no.hvl.dat100;
 
 import static javax.swing.JOptionPane.*;
 
-public class Oppgave4innlevering {
+public class Oppgave1{
     public static void main(String[] args) {
        int x = Integer.parseInt(showInputDialog("Skriv inn brutto lonn: "));
        String tekst = "Med " + x + " får du dette i trinnskatt: " ;
