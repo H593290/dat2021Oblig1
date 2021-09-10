@@ -9,7 +9,7 @@ public class Oppgave5innlevering {
       
      int Poeng = Integer.parseInt(showInputDialog("Skriv inn poeng: "));
 
-     String tekst = "Med " + Poeng + " poeng" + " får du karakteren: " ;
+     String tekst = "Med " + Poeng + " poeng" + " fÃ¥r du karakteren: " ;
 
      if(Poeng <= 100 && Poeng >= 90){ 
        tekst += "A";
@@ -35,7 +35,7 @@ public class Oppgave5innlevering {
      tekst += "F";
      showMessageDialog(null, tekst);}
 
-     else if(Poeng < 0 || Poeng > 100){showMessageDialog(null, "Feil ved inntasting, prøv på nytt");
+     else if(Poeng < 0 || Poeng > 100){showMessageDialog(null, "Feil ved inntasting, prÃ¸v pÃ¥ nytt");
          i--;}
         
      
