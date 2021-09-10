@@ -11,10 +11,10 @@ public class Oppgave4innlevering {
        tekst += "0";
 
      else if(x >= 164101 && x <= 230950) 
-     tekst += 0.93*lån/100;
+     tekst += 0.93*x/100;
 
      else if(x >= 230951 && x <= 580650)
-     tekst += 2.41*lån/100;
+     tekst += 2.41*x/100;
 
      else if(x >= 580651 && x <= 934050)
      tekst += 11.52*x/100;
