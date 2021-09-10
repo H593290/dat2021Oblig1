@@ -2,7 +2,7 @@ package no.hvl.dat100;
 
 import static javax.swing.JOptionPane.*;
 
-public class Oppgave5innlevering {
+public class Oppgave2 {
     public static void main(String[] args) {
         
      for(int i = 0; i < 10; i++) {
